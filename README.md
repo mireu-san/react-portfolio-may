@@ -14,7 +14,10 @@ Concept is the library. React and ES6 base.
 - [x] Let URL to be exact - use Switch feature from react-router-dom
 
 # Technical note
-Removed typescript flag and NODE_PATH support
+1. Removed typescript flag and NODE_PATH support
 We've removed the deprecated typescript flag when creating a new app. Use --template typescript instead. We've also dropped deprecated NODE_PATH flag as this has been replaced by setting the base path in jsconfig.json.
 - source: https://github.com/facebook/create-react-app/blob/master/CHANGELOG.md#removed-typescript-flag-and-node_path-support
 - Solution : created jsconfig.json
+
+2. Used css module to avoid any collision of duplicated stuff in future work
+https://react.vlpt.us/styling/02-css-module.html

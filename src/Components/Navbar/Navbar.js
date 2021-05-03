@@ -1,9 +1,9 @@
 import React from "react";
-import "../Navbar/Navbar.css";
+import styles from "../Navbar/Navbar.module.css";
 
 export default () => (
-    <navbar className="navigator">
-        <ul>
+    <navbar>
+        <ul className={styles.navigator}>
             <li>
                 <a href="/">Home</a>
             </li>
