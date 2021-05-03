@@ -3,14 +3,15 @@
 Concept is the library. React and ES6 base.
 
 # Blueprint
-- [ ] 1. Navigation bar (Horizontal first - medium size)
+- [x] 1. Navigation bar (Horizontal first - medium size)
 - [ ] 2. Footer section (bottom part - medium size)
-- [ ] 3. Front page (first initial page) - may include self-introduction here
-- [ ] 4. Skills page
-- [ ] 5. Portfolio page
-- [ ] 6. Contact Page
+- [x] 3. Front page (first initial page) - may include self-introduction here
+- [x] 4. Skills page
+- [x] 5. Portfolio page
+- [x] 6. Contact Page
 - [ ] 7. Image for Front, skills, portfolio, contact page
-- [ ] Be sure to keep the SPA feature!
+- [x] Be sure to keep the SPA feature!
+- [x] Let URL to be exact - use Switch feature from react-router-dom
 
 # Technical note
 Removed typescript flag and NODE_PATH support

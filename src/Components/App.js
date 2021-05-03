@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Router from "Components/Router";
-import Navbar from "Components/Navbar";
+import Navbar from "Components/Navbar/Navbar";
 
 
 
