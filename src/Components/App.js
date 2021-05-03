@@ -1,17 +1,15 @@
 import React, { Component } from "react";
-
+import Router from "Components/Router";
 
 
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <h1>Welcome To My Library!</h1>
-        <h2>Have a look this place to explore the story.</h2>
-        
-      </div>
-    )
+      <>
+        <Router />
+      </>
+    );
   }
 }
 
