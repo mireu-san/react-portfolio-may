@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-dom";
+import { 
+    BrowserRouter as Router, 
+    Route, 
+    Redirect, 
+    Switch 
+} from "react-router-dom";
 import FrontGate from "Routes/FrontGate";
 import Skills from "Routes/Skills";
 import Portfolio from "Routes/Portfolio";

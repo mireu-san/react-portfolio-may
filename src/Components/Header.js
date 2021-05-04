@@ -19,16 +19,16 @@ export default () => (
     <Header>
         <List>
             <Item>
-                <SLink href="/">Home</SLink>
+                <SLink to="/">Home</SLink>
             </Item>
             <Item>
-                <SLink href="/skills">Skills</SLink>
+                <SLink to="/skills">Skills</SLink>
             </Item>
             <Item>
-                <SLink href="/portfolio">Portfolio</SLink>
+                <SLink to="/portfolio">Portfolio</SLink>
             </Item>
             <Item>
-                <SLink href="/contact">Contact</SLink>
+                <SLink to="/contact">Contact</SLink>
             </Item>
         </List>
     </Header>
