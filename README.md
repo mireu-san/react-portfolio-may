@@ -22,4 +22,4 @@ We've removed the deprecated typescript flag when creating a new app. Use --temp
 2. Used css module to avoid any collision of duplicated stuff in future work
 https://react.vlpt.us/styling/02-css-module.html
 
-3. npm add styled-components + react-router-dom
+3. npm add styled-components + react-router-dom = CS in JS will be the one to apply. Module CSS won't be applied in this project.

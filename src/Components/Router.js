@@ -4,16 +4,20 @@ import FrontGate from "Routes/FrontGate";
 import Skills from "Routes/Skills";
 import Portfolio from "Routes/Portfolio";
 import Contact from "Routes/Contact";
+import Header from "Components/Header";
 
 
 export default () => (
     <Router>
-        <Switch>
-            <Route path="/" exact component={FrontGate} />
-            <Route path="/skills" exact component={Skills} />
-            <Route path="/portfolio" exact component={Portfolio} />
-            <Route path="/contact" exact component={Contact} />
-            <Redirect from="*" to="/" />
-        </Switch>
+        <>
+            <Header />
+            <Switch>
+                <Route path="/" exact component={FrontGate} />
+                <Route path="/skills" exact component={Skills} />
+                <Route path="/portfolio" exact component={Portfolio} />
+                <Route path="/contact" exact component={Contact} />
+                <Redirect from="*" to="/" />
+            </Switch>
+        </>
     </Router>
 );
