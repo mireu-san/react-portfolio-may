@@ -1,3 +1,7 @@
-.navigator ul {
+.navigator {
     display: flex;
+}
+
+.navigator:hover {
+    background-color: aquamarine;
 }

@@ -21,3 +21,5 @@ We've removed the deprecated typescript flag when creating a new app. Use --temp
 
 2. Used css module to avoid any collision of duplicated stuff in future work
 https://react.vlpt.us/styling/02-css-module.html
+
+3. npm add styled-components + react-router-dom
